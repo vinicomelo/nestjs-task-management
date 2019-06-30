@@ -4,7 +4,7 @@ import * as uuid from 'uuid';
 
 @Injectable()
 export class TasksService {
-  private taskss: Task[] = [];
+  private tasks: Task[] = [];
 
   getAllTasks(): Task[] {
     return this.tasks;
