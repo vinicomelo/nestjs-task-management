@@ -19,6 +19,7 @@ export class TasksService {
     };
 
     this.tasks.push(task);
+    console.log(this.tasks);
     return task;
   }
 }
